@@ -21,7 +21,7 @@ const navigation = [
     icon: FolderIcon,
     current: false,
   },
-  { name: 'Calendar', href: '/dashboard', icon: CalendarIcon, current: false },
+  // { name: 'Calendar', href: '/dashboard', icon: CalendarIcon, current: false },
   {
     name: 'Documents',
     href: '/dashboard',

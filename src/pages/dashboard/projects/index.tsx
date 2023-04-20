@@ -10,7 +10,30 @@ const projects = [
     labor: 'Non-Prevailing Wage',
     date: '04/20/2023',
   },
-  // More people...
+  {
+    name: 'Beta Project',
+    city: 'Miami, FL',
+    labor: 'Non-Prevailing Wage',
+    date: '04/20/2023',
+  },
+  {
+    name: 'Gamma Project',
+    city: 'Miami, FL',
+    labor: 'Non-Prevailing Wage',
+    date: '04/20/2023',
+  },
+  {
+    name: 'Delta Project',
+    city: 'Miami, FL',
+    labor: 'Non-Prevailing Wage',
+    date: '04/20/2023',
+  },
+  {
+    name: 'Omega Project',
+    city: 'Miami, FL',
+    labor: 'Non-Prevailing Wage',
+    date: '04/20/2023',
+  },
 ];
 
 type Props = {};
@@ -53,13 +76,13 @@ const Projects = (props: Props) => {
                       scope="col"
                       className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
                     >
-                      Location
+                      Labor
                     </th>
                     <th
                       scope="col"
                       className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
                     >
-                      Labor
+                      Location
                     </th>
                     <th
                       scope="col"
